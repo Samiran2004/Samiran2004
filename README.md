@@ -1,6 +1,6 @@
-- 👋 Hi, I’m Samiran
-- 👀 I’m interested in Full stack Web Development 
-- 🌱 I’m currently learning Frontend and DSA
+- 👋 Hi, I’m Samiran.
+- 👀 I’m interested in Full stack Web Development .
+- 🌱 I’m currently learning Backend with node JS and EXPRESS Js and DSA.
 
 <!---
 Samiran2004/Samiran2004 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
