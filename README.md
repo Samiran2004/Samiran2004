@@ -11,6 +11,8 @@ hi, i'm [Samiran Samanta](www.linkedin.com/in/samiransamanta), a passionate self
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 <code><img height="20" src="https://github.com/MarioTerron/logo-images/blob/master/logos/expressjs.png"></code>
+<code><img height="20" src="https://github.com/MarioTerron/logo-images/blob/master/logos/expressjs.png"></code>
+
 📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
 
