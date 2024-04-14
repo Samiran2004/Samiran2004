@@ -31,6 +31,13 @@ JSON         0 secs          ░░░░░░░░░░░░░░░░░
 Other        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
 ```
 
+<!-- TODO-IST:END -->
+
+
+📈 my github stats
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=samiran2004&show_icons=true&theme=gotham" alt="samiran2004" />
+
 <!--END_SECTION:waka-->
 
 In my realm, the backend serves as the beating heart of every project, where ideas crystallize into robust systems and functionalities. With each line of code, I embark on a journey of innovation, driven by the thrill of architecting solutions that seamlessly blend creativity with functionality.
@@ -40,13 +47,6 @@ My fascination with backend development knows no bounds; it's a realm where I fi
 As a backend developer, I believe in the transformative power of technology to shape the world around us. Whether it's building scalable web applications, crafting robust APIs, or diving into the depths of cloud infrastructure, I approach each project with an unwavering commitment to excellence and a thirst for continual learning.
 
 Join me on this exhilarating journey as we push the boundaries of what's possible in the realm of backend development, turning dreams into code and aspirations into reality, one elegant interface at a time.
-
-<!-- TODO-IST:END -->
-
-
-📈 my github stats
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=samiran2004&show_icons=true&theme=gotham" alt="samiran2004" />
 
 
 
