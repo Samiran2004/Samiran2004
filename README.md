@@ -1,4 +1,4 @@
-hi, i'm [Samiran Samanta], a passionate self-taught backend developer from india. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. 
+hi, i'm [Samiran Samanta](www.linkedin.com/in/samiransamanta), a passionate self-taught backend developer from india. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. 
 
   <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
   
