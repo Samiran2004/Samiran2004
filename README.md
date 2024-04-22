@@ -27,6 +27,8 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 
 <img src="https://github-profile-trophy.vercel.app/?username=Samiran2004&theme=juicyfresh&no-bg=true" />
 
+![star-history](https://api.lucabubi.me/chart?username=Samiran2004&repository=REPOSITORY&color=RED)
+
 📈 **my github stats:**
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Samiran2004&theme=tokyonight" alt="mystreak"/>
 <!-- TODO-IST:END -->
