@@ -5,6 +5,8 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 - 💼 any freelance work? do reach, [email](samirans170@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
 
+- <img src="https://profile-counter.glitch.me/{Samiran2004}/count.svg" alt="Samiran2004 :: Visitor's Count" />
+
 **languages and tools:**  
 
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
@@ -26,8 +28,6 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Samiran2004&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
 
 <img src="https://github-profile-trophy.vercel.app/?username=Samiran2004&theme=juicyfresh&no-bg=true" />
-
-![star-history](https://api.lucabubi.me/chart?username=Samiran2004&repository=REPOSITORY&color=RED)
 
 📈 **my github stats:**
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Samiran2004&theme=tokyonight" alt="mystreak"/>
