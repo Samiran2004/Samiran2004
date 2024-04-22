@@ -29,6 +29,8 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Samiran2004&theme=tokyonight" alt="mystreak"/>
 <!-- TODO-IST:END -->
 
+<img src="https://myreadme.vercel.app/api/embed/Samiran2004?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
+
 <!--END_SECTION:waka-->
 
 In my realm, the backend serves as the beating heart of every project, where ideas crystallize into robust systems and functionalities. With each line of code, I embark on a journey of innovation, driven by the thrill of architecting solutions that seamlessly blend creativity with functionality.
