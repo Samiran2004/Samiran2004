@@ -23,14 +23,7 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 
 📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
-
-```txt
-JavaScript   6 hrs 15 mins   █████████████████████░░   87.16 %
-C   54 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   12.73 %
-JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
-Other        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
-```
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=madushadhanushka&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
 <!-- TODO-IST:END -->
 
 
