@@ -24,12 +24,10 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Samiran2004&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Samiran2004&theme=tokyonight" alt="mystreak"/>
-<!-- TODO-IST:END -->
-
 
 📈 my github stats
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=Samiran2004&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=2B5BBD&icon_color=1124BB&text_color=A1A1A1&bg_color=0,000000,130F40" alt="my Github Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Samiran2004&theme=tokyonight" alt="mystreak"/>
+<!-- TODO-IST:END -->
 
 <!--END_SECTION:waka-->
 
