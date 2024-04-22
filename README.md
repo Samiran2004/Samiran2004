@@ -34,17 +34,3 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <!-- TODO-IST:END -->
 
 <img src="https://myreadme.vercel.app/api/embed/Samiran2004?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
-
-<!--END_SECTION:waka-->
-
-
-In my realm, the backend serves as the beating heart of every project, where ideas crystallize into robust systems and functionalities. With each line of code, I embark on a journey of innovation, driven by the thrill of architecting solutions that seamlessly blend creativity with functionality.
-
-My fascination with backend development knows no bounds; it's a realm where I find solace in the intricacies of data structures, algorithms, and the orchestration of systems that power the digital landscape. From crafting APIs that facilitate seamless communication between applications to optimizing database queries for lightning-fast performance, I relish every challenge that comes my way.
-
-As a backend developer, I believe in the transformative power of technology to shape the world around us. Whether it's building scalable web applications, crafting robust APIs, or diving into the depths of cloud infrastructure, I approach each project with an unwavering commitment to excellence and a thirst for continual learning.
-
-Join me on this exhilarating journey as we push the boundaries of what's possible in the realm of backend development, turning dreams into code and aspirations into reality, one elegant interface at a time.
-
-
-
