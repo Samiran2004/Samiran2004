@@ -25,7 +25,7 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <!--START_SECTION:waka-->
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Samiran2004&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
 
-📈 my github stats
+📈 my github stats:**
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Samiran2004&theme=tokyonight" alt="mystreak"/>
 <!-- TODO-IST:END -->
 
