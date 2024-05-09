@@ -26,7 +26,7 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 
 📊 **this week i spent my time on:**
 
-[![Leetcode Stats](https://leetcard.jacoblin.cool/JacobLinCool)](https://leetcode.com/u/SAMIRAN2004/)
+[![Leetcode Stats](https://leetcode.com/u/SAMIRAN2004/)](https://leetcode.com/u/SAMIRAN2004/)
 <!--START_SECTION:waka-->
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Samiran2004&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
 
