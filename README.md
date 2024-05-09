@@ -1,6 +1,8 @@
 hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passionate self-taught backend developer from india. my passion for software lies with dreaming up ideas and making them come true.
 
-  <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
+<!--<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />-->
+
+[![Samiran's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=SAMIRAN2004)](https://github.com/KnlnKS/leetcode-stats)
   
 - 💼 any freelance work? do reach, [email](samirans170@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
@@ -25,8 +27,6 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <code><img height="20" src="https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png"></code>
 
 📊 **this week i spent my time on:**
-
-[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=SAMIRAN2004)](https://github.com/KnlnKS/leetcode-stats)
 <!--START_SECTION:waka-->
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Samiran2004&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
 
