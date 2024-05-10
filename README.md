@@ -35,4 +35,4 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Samiran2004&theme=tokyonight" alt="mystreak"/>
 <!-- TODO-IST:END -->
 
-<img src="https://myreadme.vercel.app/api/embed/Samiran2004?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
+<img src="https://myreadme.vercel.app/api/embed/Samiran2004?panels=userstatistics,toplanguages,commitgraph" alt="reimaginedreadme" />
