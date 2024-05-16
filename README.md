@@ -2,7 +2,7 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 
 <!--<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />-->
 
-[![Samiran's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=SAMIRAN2004)](https://github.com/KnlnKS/leetcode-stats)
+[![Samiran's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=SAMIRAN2004&theme=dark)](https://github.com/KnlnKS/leetcode-stats)
   
 - 💼 any freelance work? do reach, [email](samirans170@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
