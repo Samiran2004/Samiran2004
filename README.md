@@ -32,7 +32,7 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <img src="https://github-profile-trophy.vercel.app/?username=Samiran2004&theme=juicyfresh&no-bg=true" />
 
 📈 **my github stats:**
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Samiran2004&theme=tokyonight" alt="mystreak"/>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Samiran2004&show_icons=true&theme=radical)
 <!-- TODO-IST:END -->
 
 <img src="https://myreadme.vercel.app/api/embed/Samiran2004?panels=userstatistics,toplanguages,commitgraph" alt="reimaginedreadme" />
