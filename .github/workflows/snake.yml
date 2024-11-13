@@ -1,14 +1,9 @@
 name: Generate Snake Animation
 
 on:
-  # Run this workflow every 6 hours
   schedule:
-    - cron: "0 */6 * * *"
-
-  # Allows you to run the workflow manually
+    - cron: "0 */6 * * *"  # Every 6 hours
   workflow_dispatch:
-
-  # Automatically runs the workflow when a push occurs
   push:
     branches:
       - main
@@ -16,20 +11,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Check out the repository
       - name: Check out Git repository
         uses: actions/checkout@v2
 
-      # Step 2: Generate the Snake animation
       - name: Generate Snake animation
         uses: Platane/snk@v2
         with:
-          github_user_name: "<USERNAME>" # Replace with your GitHub username
+          github_user_name: "Samiran2004"  # Replace with your GitHub username
           outputs: dist/snake.svg
 
-      # Step 3: Commit and push the animation to the repository
       - name: Push generated animation
         uses: ad-m/github-push-action@v0.6.0
         with:
