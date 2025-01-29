@@ -34,6 +34,7 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <code><img height="20" src="https://img.icons8.com/?size=96&id=Ei4ZhVQvIMHE&format=png"></code>
 <code><img height="20" src="https://img.icons8.com/?size=48&id=9uVrNMu3Zx1K&format=png"></code>
 <code><img height="20" src="https://img.icons8.com/?size=80&id=HF4xGsjDERHf&format=png"></code>
+<code><img height="20" src="https://img.icons8.com/color/48/000000/amazon-web-services.png"></code>
 
 📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
