@@ -27,6 +27,7 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <code><img height="20" src="https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png"></code>
 <code><img height="20" src="https://redis.io/wp-content/uploads/2024/04/Logotype.svg?auto=webp&quality=85,75&width=120"></code>
 <code><img height="20" src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg?auto=webp&quality=85,75&width=120"></code>
+<code><img height="20" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg?auto=webp&quality=85,75&width=120"></code>
 
 📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
