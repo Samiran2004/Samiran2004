@@ -29,6 +29,11 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <code><img height="20" src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg?auto=webp&quality=85,75&width=120"></code>
 <code><img height="20" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg?auto=webp&quality=85,75&width=120"></code>
 <code><img height="20" src="https://img.icons8.com/?size=80&id=50ZQHdJTmPqw&format=png"></code>
+<code><img height="20" src="https://img.icons8.com/?size=48&id=22813&format=png"></code>
+<code><img height="20" src="https://img.icons8.com/?size=48&id=cvzmaEA4kC0o&format=png"></code>
+<code><img height="20" src="https://img.icons8.com/?size=96&id=Ei4ZhVQvIMHE&format=png"></code>
+<code><img height="20" src="https://img.icons8.com/?size=48&id=9uVrNMu3Zx1K&format=png"></code>
+<code><img height="20" src="https://img.icons8.com/?size=80&id=HF4xGsjDERHf&format=png"></code>
 
 📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
