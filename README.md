@@ -28,7 +28,7 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <code><img height="20" src="https://redis.io/wp-content/uploads/2024/04/Logotype.svg?auto=webp&quality=85,75&width=120"></code>
 <code><img height="20" src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg?auto=webp&quality=85,75&width=120"></code>
 <code><img height="20" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg?auto=webp&quality=85,75&width=120"></code>
-<code><img height="20" src="https://logos-world.net/wp-content/uploads/2021/02/Docker-Logo-2015-2017.png"></code>
+<code><img height="20" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png"></code>
 <code><img height="20" src="https://img.icons8.com/?size=80&id=50ZQHdJTmPqw&format=png"></code>
 <code><img height="20" src="https://img.icons8.com/?size=96&id=Ei4ZhVQvIMHE&format=png"></code>
 <code><img height="20" src="https://img.icons8.com/?size=48&id=9uVrNMu3Zx1K&format=png"></code>
