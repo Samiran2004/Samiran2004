@@ -1,12 +1,53 @@
-hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passionate self-taught backend developer from india. my passion for software lies with dreaming up ideas and making them come true.
+<h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> নমস্কার (Namaste)🙏🏻, I'm Samiran Samanta! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<p><em>A passionate self-taught backend developer from india. my passion for software lies with dreaming up ideas and making them come true.
+</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+</em></p>
 
-<!--<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />-->
+[![Twitter Follow](https://img.shields.io/twitter/follow/misteranmol?label=Follow)](https://x.com/SmrSmt147270)
+[![Linkedin: anmol](https://img.shields.io/badge/-samiran-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/samiransamanta/)](https://www.linkedin.com/in/samiransamanta/)
+![GitHub followers](https://img.shields.io/github/followers/Samiran2004?label=Follow&style=social)
+[![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://samiransamantaportfolio.netlify.app/)](https://samiransamantaportfolio.netlify.app/)
 
-[![Leetcode Stats](https://leetcard.jacoblin.cool/SAMIRAN2004)](https://leetcode.com/u/SAMIRAN2004/)
-  
-- 💼 any freelance work? do reach, [email](samirans170@gmail.com) :)
-- 💬 ask me about anything, i am happy to help;
+<a href="https://trendshift.io/developers/2235" target="_blank"><img src="https://trendshift.io/api/badge/developers/2235" alt="Samiran2004 | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+
+```javascript
+const Samiran = {
+    pronouns: "He" | "Him",
+    code: ["TypeScript", "JavaScript", "Java", "Python", "Bash"],
+    askMeAbout: ["backend dev", "system design", "DevOps", "IoT", "cloud", "CS fundamentals"],
+    technologies: {
+        frontEnd: {
+            js: ["React"],
+            css: ["Tailwind"],
+        },
+        backEnd: {
+            js: ["Node.js", "Express.js", "NestJS"],
+        },
+        devOps: ["Docker🐳", "GitHub Actions", "Grafana", "Prometheus", "Loki", "CI/CD", "Nginx"],
+        cloudServices: {
+            aws: ["EC2", "S3", "Lambda", "CloudWatch", "RDS"],
+            gcp: ["Cloud Run", "Cloud Functions"],
+        },
+        databases: ["MongoDB", "Redis", "MySQL", "PostgreSQL"],
+        misc: ["Postman", "Swagger", "Socket.IO", "WebSockets", "ZEGOCLOUD", "Twilio", "IoT sensors"],
+        generativeAI: ["Chatbot", "GPT", "Vector DBs"],
+    },
+    architecture: {
+        backEnd: ["monolithic", "microservices", "serverless"],
+        devOps: ["Docker Compose", "CloudWatch Dashboards", "Prometheus Monitoring"],
+        databases: ["Relational", "NoSQL", "In-memory"],
+    },
+    currentFocus: "Building a smart healthcare system (Medicon) with AI, IoT, and cloud",
+    funFact: "Can debug complex backend flows while sipping chai ☕ and listening to Lo-Fi beats!"
+};
+```
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+
+<br/>
 - <img src="https://profile-counter.glitch.me/{Samiran2004}/count.svg" alt="Samiran2004 :: Visitor's Count" />
 
 **languages and tools:**  
@@ -36,6 +77,65 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 <code><img height="20" src="https://img.icons8.com/?size=80&id=HF4xGsjDERHf&format=png"></code>
 <code><img height="20" src="https://img.icons8.com/color/48/000000/amazon-web-services.png"></code>
 
+<br>
+
+<h2 align="left" id="macropower-tech">Favorite Tech</h2>
+
+> Tools, languages, and other things that I like to work with.
+
+<table>
+  <tr>
+    <td align="center" width="96">
+<!--       <a href=""> -->
+        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" width="48" height="48" alt="TypeScript" />
+<!--       </a> -->
+      <br>TypeScript
+    </td>
+    <td align="center" width="96">
+<!--       <a href="#macropower-tech"> -->
+        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width="48" height="48" alt="Python" />
+<!--       </a> -->
+      <br>Python
+    </td>
+    <td align="center" width="96">
+<!--       <a href="#macropower-tech"> -->
+        <img src="https://img.icons8.com/?size=80&id=HF4xGsjDERHf&format=png" width="48" height="48" alt="Linux" />
+<!--       </a> -->
+      <br>Linux
+    </td>
+    <td align="center" width="96">
+<!--       <a href="#macropower-tech"> -->
+        <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png" alt="Docker" />
+<!--       </a> -->
+      <br>Docker
+    </td>
+    <td align="center" width="96">
+<!--       <a href="#macropower-tech" > -->
+        <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/kubernetes/icon/color/kubernetes-icon-color.svg" width="48" height="48" alt="Kubernetes" />
+<!--       </a> -->
+      <br>Kubernetes
+    </td>
+    <td align="center" width="96"> 
+<!--       <a href="#macropower-tech" > -->
+        <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" />
+<!--       </a> -->
+      <br>AWS
+    </td>
+    <td align="center"  width="96">
+<!--       <a href="#macropower-tech"> -->
+        <img src="https://img.icons8.com/?size=96&id=Ei4ZhVQvIMHE&format=png" alt="Prometheus" />
+<!--       </a> -->
+      <br>Prometheus
+    </td>
+    <td align="center" width="96">
+<!--       <a href="#macropower-tech" > -->
+        <img src="https://raw.githubusercontent.com/grafana/grafana/master/public/img/grafana_icon.svg" width="48" height="48" alt="Grafana" />
+<!--       </a> -->
+      <br>Grafana
+    </td>
+  </tr>
+</table>
+
 📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Samiran2004&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
@@ -48,7 +148,10 @@ hi, i'm [Samiran Samanta](https://www.linkedin.com/in/samiransamanta/), a passio
 
 [![Samiran's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Samiran2004&theme=dracula)](https://github.com/Samiran2004/github-readme-activity-graph)
 
-![Snake animation](https://github.com/Samiran2004/Samiran2004/blob/output/github-contribution-grid-snake.svg)
+[![An image of @samiran2004's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/samiran2004)](https://holopin.io/@samiran2004)
 
+<h1 align='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
 
-
+<p align="center">
+        <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Stats" />
+</p>
