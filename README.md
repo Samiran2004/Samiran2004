@@ -20,8 +20,7 @@ const Samiran = {
     askMeAbout: ["backend dev", "system design", "DevOps", "IoT", "cloud", "CS fundamentals"],
     technologies: {
         frontEnd: {
-            js: ["React"],
-            css: ["Tailwind"],
+            [ "HTML", "CSS" ]
         },
         backEnd: {
             js: ["Node.js", "Express.js", "NestJS"],
@@ -29,11 +28,10 @@ const Samiran = {
         devOps: ["Docker🐳", "GitHub Actions", "Grafana", "Prometheus", "Loki", "CI/CD", "Nginx"],
         cloudServices: {
             aws: ["EC2", "S3", "Lambda", "CloudWatch", "RDS"],
-            gcp: ["Cloud Run", "Cloud Functions"],
         },
-        databases: ["MongoDB", "Redis", "MySQL", "PostgreSQL"],
+        databases: ["MongoDB", "Redis", "MySQL"],
         misc: ["Postman", "Swagger", "Socket.IO", "WebSockets", "ZEGOCLOUD", "Twilio", "IoT sensors"],
-        generativeAI: ["Chatbot", "GPT", "Vector DBs"],
+        generativeAI: ["Chatbot", "GPT"],
     },
     architecture: {
         backEnd: ["monolithic", "microservices", "serverless"],
