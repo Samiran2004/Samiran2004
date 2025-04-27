@@ -34,7 +34,7 @@ const Samiran = {
         generativeAI: ["Chatbot", "GPT"],
     },
     architecture: {
-        backEnd: ["monolithic", "microservices", "serverless"],
+        backEnd: ["monolithic"],
         devOps: ["Docker Compose", "CloudWatch Dashboards", "Prometheus Monitoring"],
         databases: ["Relational", "NoSQL", "In-memory"],
     },
