@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://github.com/Samiran2004"><img src="https://readme-typing-svg.herokuapp.com/?lines=Backend%20Developer;DevOps%20;Always%20learning%20new%20tech&font=Pacifico&center=true&width=650&height=120&color=58a6ff&vCenter=true&size=45%22"></a>
+</p>
+
 <h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> নমস্কার (Namaste)🙏🏻, I'm Samiran! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 <p><em>A passionate self-taught backend developer from india. my passion for software lies with dreaming up ideas and making them come true.
@@ -17,25 +21,25 @@
 const Samiran = {
     pronouns: "He" | "Him",
     code: ["TypeScript", "JavaScript", "Java", "Python", "Bash"],
-    askMeAbout: ["backend dev", "system design", "DevOps", "IoT", "cloud", "CS fundamentals"],
+    askMeAbout: ["backend dev", "system design", "DevOps", "cloud", "CS fundamentals"],
     technologies: {
         frontEnd: {
             [ "HTML", "CSS" ]
         },
         backEnd: {
-            js: ["Node.js", "Express.js", "NestJS"],
+            js: ["Node.js", "Express.js"],
         },
-        devOps: ["Docker🐳", "GitHub Actions", "Grafana", "Prometheus", "Loki", "CI/CD", "Nginx"],
+        devOps: ["Docker🐳", "GitHub Actions", "CI/CD", "Nginx"],
         cloudServices: {
-            aws: ["EC2", "S3", "Lambda", "CloudWatch", "RDS"],
+            aws: ["EC2", "S3"],
         },
-        databases: ["MongoDB", "Redis", "MySQL"],
-        misc: ["Postman", "Swagger", "Socket.IO", "WebSockets", "ZEGOCLOUD", "Twilio", "IoT sensors"],
+        databases: ["MongoDB", "Redis"],
+        misc: ["Postman", "Swagger", "Socket.IO", "WebSockets", "ZEGOCLOUD", "Twilio"],
         generativeAI: ["Chatbot", "GPT"],
     },
     architecture: {
         backEnd: ["monolithic"],
-        devOps: ["Docker Compose", "CloudWatch Dashboards", "Prometheus Monitoring"],
+        devOps: ["Docker Compose"],
         databases: ["Relational", "NoSQL", "In-memory"],
     },
     currentFocus: "Building a smart healthcare system (Medicon) with AI, IoT, and cloud",
@@ -134,17 +138,83 @@ const Samiran = {
   </tr>
 </table>
 
-📊 **this week i spent my time on:**
-<!--START_SECTION:waka-->
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Samiran2004&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=Samiran2004&theme=juicyfresh&no-bg=true" />
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b>🏆 Gɪᴛʜᴜʙ Tʀᴏᴘʜɪᴇs 🏆</b>
+<p align="center">
+  <a href="https://github.com/Samiran2004/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Samiran2004&row=2&column=6&margin-w=20&margin-h=20&theme=onedark" alt="GitHub Trophies">
+  </a>
+</p>
+<br />
 
-📈 **my github stats:**
-![Samiran's GitHub stats](https://github-readme-stats.vercel.app/api?username=Samiran2004&show_icons=true&theme=radical)
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Projects</b>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b>📊 Gɪᴛʜᴜʙ Sᴛᴀᴛs 📊</b>
+
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <h3 align="center"><strong>Gɪᴛʜᴜʙ Sᴛᴀᴛs</strong></h3>
+      <p align="center">
+        <a href="https://github.com/Samiran2004">
+          <img align="center" src="https://github-readme-stats.vercel.app/api?username=Samiran2004&count_private=true&show_icons=true&theme=nightowl" alt="GitHub Stats" />
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center"><strong>Sᴛʀᴇᴀᴋ Sᴛᴀᴛs</strong></h3>
+      <p align="center">
+        <a href="https://github.com/Samiran2004">
+          <img align="center" src="https://streak-stats.demolab.com?user=Samiran2004&theme=nightowl" alt="Streak Stats" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center"><strong>Lᴀᴛᴇsᴛ Pʀᴏᴊᴇᴄᴛ</strong></h3>
+      <p align="center">
+        <a href="https://github.com/Samiran2004/Medicon">
+          <img align="center" width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Samiran2004&repo=Medicon&theme=nightowl&show_owner=true" alt="Shuvo_Dev_Portfolio" />
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center"><strong>Tᴏᴘ Cᴏɴᴛʀɪʙᴜᴛɪᴏɴs</strong></h3>
+      <p align="center">
+        <a href="https://github.com/Samiran2004">
+          <img align="center" src="https://github-contributor-stats.vercel.app/api?username=Samiran2004&limit=3&theme=nightowl&show_owner=true&combine_all_yearly_contributions=true" alt="Top Repo" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+     <td width="50%">
+      <h3 align="center"><strong>Tᴏᴘ Language's</strong></h3>
+      <p align="center">
+        <a href="https://github.com/Samiran2004">
+          <img align="center" width="450" src="https://github-readme-stats.vercel.app/api/top-langs?username=Samiran2004&show_icons=true&locale=en&theme=nightowl&layout=compact" alt="Top Languages" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+<br />
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b>🌟 Tʜᴏᴜɢʜᴛ ᴏғ ᴛʜᴇ Dᴀʏ 🌟</b>
+
+
+<!--STARTS_HERE_QUOTE_CARD-->
+<p align="center">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Og%20Mandino&quote=Tomorrow%20is%20only%20found%20in%20the%20calendar%20of%20fools.&theme=dark&bg_color=011627&author_color=ffeb95">
+</p>
+<!--ENDS_HERE_QUOTE_CARD-->
+
 <!-- TODO-IST:END -->
 
-[![Samiran's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Samiran2004&theme=dracula)](https://github.com/Samiran2004/github-readme-activity-graph)
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b>📈 Cᴏɴᴛʀɪʙᴜᴛɪᴏɴ Gʀᴀᴘʜ 📈</b>
+
+[![shuvo github activity graph](https://fabianocouto-activity-graph.vercel.app/graph/?username=Samiran2004&custom_title=Zephyrus%20Contribution%20Graph&theme=github-compact)](https://www.linkedin.com/in/samiransamanta/)
 
 [![An image of @samiran2004's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/samiran2004)](https://holopin.io/@samiran2004)
 
