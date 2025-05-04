@@ -222,7 +222,7 @@ const Samiran = {
 
 [![An image of @samiran2004's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/samiran2004)](https://holopin.io/@samiran2004)
 
-<h1 align='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
+<h1 align='center'>⚡️<i>REBUILD IT!</i>⚡️</h1>
 
 <p align="center">
         <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Stats" />
