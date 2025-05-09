@@ -179,7 +179,7 @@ const Samiran = {
       <h3 align="center"><strong>Lᴀᴛᴇsᴛ Pʀᴏᴊᴇᴄᴛ</strong></h3>
       <p align="center">
         <a href="https://github.com/Samiran2004/Medicon">
-          <img align="center" width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Samiran2004&repo=Medicon&theme=nightowl&show_owner=true" alt="Shuvo_Dev_Portfolio" />
+          <img align="center" width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Samiran2004&repo=Medicon&theme=nightowl&show_owner=true" alt="" />
         </a>
       </p>
     </td>
