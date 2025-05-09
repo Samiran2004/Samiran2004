@@ -1,6 +1,9 @@
 <p align="center">
-  <a href="https://github.com/Samiran2004"><img src="https://readme-typing-svg.herokuapp.com/?lines=Backend%20Developer;DevOps%20;Always%20learning%20new%20tech&font=Pacifico&center=true&width=650&height=120&color=58a6ff&vCenter=true&size=45%22"></a>
+  <a href="https://github.com/Samiran2004">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Passionate%20Backend%20Developer;Learning%20DevOps%20%7C%20Docker%2C%20AWS%2C%20Linux;Mastering%20DSA%20in%20Java%20%7C%20Spring%20Boot%20Development;Building%20real-world%20projects%20with%20Node.js%20%26%20TypeScript;&font=Pacifico&center=true&width=650&height=120&color=FF6F61&vCenter=true&size=25%22">
+  </a>
 </p>
+
 
 <h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> নমস্কার (Namaste)🙏🏻, I'm Samiran! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
@@ -28,8 +31,9 @@ const Samiran = {
         },
         backEnd: {
             js: ["Node.js", "Express.js"],
+            Java: ["Spring Boot"]
         },
-        devOps: ["Docker🐳", "GitHub Actions", "CI/CD", "Nginx"],
+        devOps: ["Docker🐳", "Nginx"],
         cloudServices: {
             aws: ["EC2", "S3"],
         },
@@ -74,8 +78,6 @@ const Samiran = {
 <code><img height="20" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg?auto=webp&quality=85,75&width=120"></code>
 <code><img height="20" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png"></code>
 <code><img height="20" src="https://img.icons8.com/?size=80&id=50ZQHdJTmPqw&format=png"></code>
-<code><img height="20" src="https://img.icons8.com/?size=96&id=Ei4ZhVQvIMHE&format=png"></code>
-<code><img height="20" src="https://img.icons8.com/?size=48&id=9uVrNMu3Zx1K&format=png"></code>
 <code><img height="20" src="https://img.icons8.com/?size=80&id=HF4xGsjDERHf&format=png"></code>
 <code><img height="20" src="https://img.icons8.com/color/48/000000/amazon-web-services.png"></code>
 
@@ -87,6 +89,12 @@ const Samiran = {
 
 <table>
   <tr>
+    <td align="center" width="96">
+<!--       <a href=""> -->
+        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" width="48" height="48" alt="TypeScript" />
+<!--       </a> -->
+      <br>Java
+    </td>
     <td align="center" width="96">
 <!--       <a href=""> -->
         <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" width="48" height="48" alt="TypeScript" />
@@ -111,29 +119,35 @@ const Samiran = {
 <!--       </a> -->
       <br>Docker
     </td>
-    <td align="center" width="96">
-<!--       <a href="#macropower-tech" > -->
-        <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/kubernetes/icon/color/kubernetes-icon-color.svg" width="48" height="48" alt="Kubernetes" />
-<!--       </a> -->
-      <br>Kubernetes
-    </td>
     <td align="center" width="96"> 
 <!--       <a href="#macropower-tech" > -->
         <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" />
 <!--       </a> -->
       <br>AWS
     </td>
-    <td align="center"  width="96">
-<!--       <a href="#macropower-tech"> -->
-        <img src="https://img.icons8.com/?size=96&id=Ei4ZhVQvIMHE&format=png" alt="Prometheus" />
+    <td align="center" width="96">
+<!--       <a href=""> -->
+        <img src="https://img.icons8.com/?size=100&id=61466&format=png&color=000000" width="48" height="48" alt="TypeScript" />
 <!--       </a> -->
-      <br>Prometheus
+      <br>Intellij IDEA
     </td>
     <td align="center" width="96">
-<!--       <a href="#macropower-tech" > -->
-        <img src="https://raw.githubusercontent.com/grafana/grafana/master/public/img/grafana_icon.svg" width="48" height="48" alt="Grafana" />
+<!--       <a href=""> -->
+        <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" width="48" height="48" alt="TypeScript" />
 <!--       </a> -->
-      <br>Grafana
+      <br>VS Code
+    </td>
+    <td align="center" width="96">
+<!--       <a href=""> -->
+        <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" width="48" height="48" alt="TypeScript" />
+<!--       </a> -->
+      <br>Spring Boot
+    </td>
+    <td align="center" width="96">
+<!--       <a href=""> -->
+        <img src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" width="48" height="48" alt="TypeScript" />
+<!--       </a> -->
+      <br>Node JS
     </td>
   </tr>
 </table>
