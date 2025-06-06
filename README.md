@@ -233,9 +233,18 @@ const Samiran = {
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b>📈 Cᴏɴᴛʀɪʙᴜᴛɪᴏɴ Gʀᴀᴘʜ 📈</b>
 
-[![shuvo github activity graph](https://fabianocouto-activity-graph.vercel.app/graph/?username=Samiran2004&custom_title=Zephyrus%20Contribution%20Graph&theme=github-compact)](https://www.linkedin.com/in/samiransamanta/)
+[![zephyrus github activity graph](https://fabianocouto-activity-graph.vercel.app/graph/?username=Samiran2004&custom_title=Zephyrus%20Contribution%20Graph&theme=github-compact)](https://www.linkedin.com/in/samiransamanta/)
 
-[![An image of @samiran2004's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/samiran2004)](https://holopin.io/@samiran2004)
+[![Holopin badges](https://holopin.me/samiran2004)](https://holopin.io/@samiran2004)
+
+<a href="https://drive.google.com/file/d/1VsqsBivfrLfqCFwuMXgv2k3WK3E_0TIp/view" target="_blank" rel="noopener noreferrer">
+  <img src="https://drive.google.com/uc?export=view&id=1VsqsBivfrLfqCFwuMXgv2k3WK3E_0TIp" alt="New Badge" style="height:130px; vertical-align:middle; margin-left:18px;"/>
+</a>
+
+<a href="https://badgr.com/public/assertions/6CmfzKiWR1yQxjybAJ3qvA?identity__email=samiransamanta490@gmail.com" target="_blank" rel="noopener noreferrer">
+  <img src="https://badgr.com/public/assertions/6CmfzKiWR1yQxjybAJ3qvA/image" alt="Postman Student Expert Badge" style="height:130px; vertical-align:middle;"/>
+</a>
+
 
 <h1 align='center'>⚡️<i>REBUILD IT!</i>⚡️</h1>
 
