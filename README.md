@@ -237,7 +237,8 @@ const Samiran = {
 
 [![Holopin badges](https://holopin.me/samiran2004)](https://holopin.io/@samiran2004)
 
-<a href="https://drive.google.com/file/d/1VsqsBivfrLfqCFwuMXgv2k3WK3E_0TIp/view" target="_blank" rel="noopener noreferrer">
+<p align="left">
+  <a href="https://drive.google.com/file/d/1VsqsBivfrLfqCFwuMXgv2k3WK3E_0TIp/view" target="_blank" rel="noopener noreferrer">
   <img src="https://drive.google.com/uc?export=view&id=1VsqsBivfrLfqCFwuMXgv2k3WK3E_0TIp" alt="New Badge" style="height:130px; vertical-align:middle; margin-left:18px;"/>
 </a>
 
@@ -245,9 +246,11 @@ const Samiran = {
   <img src="https://badgr.com/public/assertions/6CmfzKiWR1yQxjybAJ3qvA/image" alt="Postman Student Expert Badge" style="height:130px; vertical-align:middle;"/>
 </a>
 
-<img src="./assets/Badge.png" alt="My Badge" height="130" style="vertical-align:middle; margin-left:18px;"/>
+  <img src="./assets/Badge.png" alt="My Badge" height="130" style="vertical-align:middle;"/>
+  
+  <img src="./assets/Evangelist.png" alt="Evangelist Badge" height="130" style="vertical-align:middle; margin-left:18px;"/>
+</p>
 
-<img src="./assets/Evangelist.png" alt="My Badge" height="130" style="vertical-align:middle; margin-left:18px;"/>
 
 
 
