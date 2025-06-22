@@ -245,6 +245,11 @@ const Samiran = {
   <img src="https://badgr.com/public/assertions/6CmfzKiWR1yQxjybAJ3qvA/image" alt="Postman Student Expert Badge" style="height:130px; vertical-align:middle;"/>
 </a>
 
+<img src="./assets/Badge.png" alt="My Badge" height="130" style="vertical-align:middle; margin-left:18px;"/>
+
+<img src="./assets/Evangelist.png" alt="My Badge" height="130" style="vertical-align:middle; margin-left:18px;"/>
+
+
 
 <h1 align='center'>⚡️<i>REBUILD IT!</i>⚡️</h1>
 
