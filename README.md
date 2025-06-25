@@ -1,8 +1,9 @@
 <p align="center">
   <a href="https://github.com/Samiran2004">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Passionate%20Backend%20Developer;Learning%20DevOps%20%7C%20Docker%2C%20AWS%2C%20Linux;Mastering%20DSA%20in%20Java%20%7C%20Spring%20Boot%20Development;Building%20real-world%20projects%20with%20Node.js%20%26%20TypeScript;&font=Pacifico&center=true&width=650&height=120&color=FF6F61&vCenter=true&size=25%22">
+    <img src="https://readme-typing-svg.herokuapp.com?lines=Aspiring+Backend+Developer+%7C+Node.js+%26+Express;Learning+Android+%26+Native+Development;Practicing+DSA+with+Java+Daily;Building+Full-stack+Projects;&font=Fira+Code&center=true&width=700&height=120&color=F57C00&vCenter=true&size=24">
   </a>
 </p>
+
 
 
 <h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> নমস্কার (Namaste)🙏🏻, I'm Samiran! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
@@ -23,32 +24,34 @@
 ```javascript
 const Samiran = {
     pronouns: "He" | "Him",
-    code: ["TypeScript", "JavaScript", "Java", "Python", "Bash"],
-    askMeAbout: ["backend dev", "system design", "DevOps", "cloud", "CS fundamentals"],
+    code: ["JavaScript", "TypeScript", "Java", "Python", "Bash"],
+    askMeAbout: ["backend dev", "DSA", "mobile dev", "CS fundamentals"],
     technologies: {
         frontEnd: {
-            [ "HTML", "CSS" ]
+            mobile: ["React Native", "Android (Java)"],
+            web: ["HTML", "CSS"]
         },
         backEnd: {
             js: ["Node.js", "Express.js"],
-            Java: ["Spring Boot"]
+            java: ["Spring Boot (basic)"]
         },
-        devOps: ["Docker🐳", "Nginx"],
+        devOps: [], // Paused for now
         cloudServices: {
-            aws: ["EC2", "S3"],
+            aws: ["EC2 (basic)", "S3 (basic)"]
         },
         databases: ["MongoDB", "Redis"],
-        misc: ["Postman", "Swagger", "Socket.IO", "WebSockets", "ZEGOCLOUD", "Twilio"],
-        generativeAI: ["Chatbot", "GPT"],
+        misc: ["Postman", "Swagger", "Socket.IO", "Twilio"],
+        generativeAI: ["Chatbot", "GPT"]
     },
     architecture: {
-        backEnd: ["monolithic"],
-        devOps: ["Docker Compose"],
-        databases: ["Relational", "NoSQL", "In-memory"],
+        backEnd: ["REST APIs", "MVC"],
+        databases: ["NoSQL", "In-memory"],
+        fullStack: ["React Native + Node.js"]
     },
-    currentFocus: "Building a smart healthcare system (Medicon) with AI, IoT, and cloud",
-    funFact: "Can debug complex backend flows while sipping chai ☕ and listening to Lo-Fi beats!"
+    currentFocus: "Building cross-platform mobile apps and strengthening DSA skills in Java",
+    funFact: "Can debug tricky backend flows while sipping chai ☕ and vibing to Lo-Fi beats 🎵"
 };
+
 ```
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
