@@ -230,7 +230,7 @@ const Samiran = {
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-  <img src="https://readme-daily-quotes.vercel.app/api?author=Zephyrus&quote=I%20code%2C%20I%20query%2C%20I%20containerize.%20Repeat%20.&theme=dark&bg_color=0a192f&author_color=00ffcc">
+  <img src="https://readme-daily-quotes.vercel.app/api?author=Zephyrus&quote=%22Coding%20with%20the%20winds%20of%20Zephyrus%20%E2%80%94%20fast%2C%20adaptive%2C%20unstoppable.%22&theme=dark&bg_color=0a192f&author_color=00ffcc">
 </p>
 
 <!--ENDS_HERE_QUOTE_CARD-->
