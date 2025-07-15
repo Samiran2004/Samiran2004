@@ -1,9 +1,32 @@
 <p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="100%" alt="Banner Background GIF" />
+</p>
+
+<p align="center">
   <a href="https://github.com/Samiran2004">
     <img src="https://readme-typing-svg.herokuapp.com?lines=Aspiring+Backend+Developer+%7C+Node.js+%26+Express;Learning+Android+%26+Native+Development;Practicing+DSA+with+Java+Daily;Building+Full-stack+Projects;&font=Fira+Code&center=true&width=700&height=120&color=F57C00&vCenter=true&size=24">
   </a>
 </p>
 
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+        <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="48" height="48" alt="Javascript" />
+    </td>
+    <td align="center" width="96"> 
+        <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="48" height="48" alt="AWS" />
+    </td>
+    <td align="center" width="96"> 
+        <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="48" height="48" alt="AWS" />
+    </td>
+    <td align="center" width="96"> 
+        <img src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="48" height="48" alt="AWS" />
+    </td>
+    <td align="center" width="96"> 
+        <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="48" height="48" alt="AWS" />
+    </td>
+  </tr>
+</table>
 
 
 <h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> নমস্কার (Namaste)🙏🏻, I'm Samiran! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
@@ -223,16 +246,16 @@ const Samiran = {
     </td>
   </tr>
 
-  <tr>
+  <!-- <tr>
      <td width="50%">
       <h3 align="center"><strong>OctoCat</strong></h3>
       <p align="center">
         <a href="https://github.com/Samiran2004">
-          <img align="center" width="450" src="https://user-images.githubusercontent.com/74038190/212741999-016fddbd-617a-4448-8042-0ecf907aea25.gif" alt="Top Languages" />
+          <img align="center" width="350" src="https://user-images.githubusercontent.com/74038190/212741999-016fddbd-617a-4448-8042-0ecf907aea25.gif" alt="Top Languages" />
         </a>
       </p>
     </td>
-  </tr>
+  </tr> -->
 </table>
 <br />
 
