@@ -7,9 +7,9 @@
 
 
 <h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> নমস্কার (Namaste)🙏🏻, I'm Samiran! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<img align='right' src="https://user-images.githubusercontent.com/74038190/216644497-1951db19-8f3d-4e44-ac08-8e9d7e0d94a7.gif" width="230">
 <p><em>A passionate self-taught backend developer from india. my passion for software lies with dreaming up ideas and making them come true.
-</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+</a><img src="https://user-images.githubusercontent.com/74038190/235223585-049a7ac0-b529-416d-b504-ed24aea7d99b.gif" width="30"> 
 </em></p>
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/misteranmol?label=Follow)](https://x.com/SmrSmt147270)
@@ -218,6 +218,17 @@ const Samiran = {
       <p align="center">
         <a href="https://github.com/Samiran2004">
           <img align="center" width="450" src="https://github-readme-stats.vercel.app/api/top-langs?username=Samiran2004&show_icons=true&locale=en&theme=nightowl&layout=compact" alt="Top Languages" />
+        </a>
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+     <td width="50%">
+      <h3 align="center"><strong>OctoCat</strong></h3>
+      <p align="center">
+        <a href="https://github.com/Samiran2004">
+          <img align="center" width="450" src="https://user-images.githubusercontent.com/74038190/212741999-016fddbd-617a-4448-8042-0ecf907aea25.gif" alt="Top Languages" />
         </a>
       </p>
     </td>
