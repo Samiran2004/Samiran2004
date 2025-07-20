@@ -202,11 +202,15 @@ const Samiran = {
   <tr>
     <td width="50%">
       <h3 align="center"><strong>Gɪᴛʜᴜʙ Sᴛᴀᴛs</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Samiran2004">
-          <img align="center" src="https://github-readme-stats.vercel.app/api?username=Samiran2004&count_private=true&show_icons=true&theme=nightowl" alt="GitHub Stats" />
-        </a>
-      </p>
+
+![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Samiran2004&theme=aura)
+
+<p align="left">
+  <img 
+    src="https://github-contributor-stats.vercel.app/api?username=Samiran2004&layout=compact&limit=5&theme=aura&hide_border=true&combine_all_yearly_contributions=true" 
+    alt="Samiran GitHub Contributor Stats" 
+  />
+</p>
     </td>
     <td width="50%">
       <h3 align="center"><strong>Sᴛʀᴇᴀᴋ Sᴛᴀᴛs</strong></h3>
@@ -268,12 +272,6 @@ const Samiran = {
 </p>
 
 <!--ENDS_HERE_QUOTE_CARD-->
-
-<!-- TODO-IST:END -->
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b>📈 Cᴏɴᴛʀɪʙᴜᴛɪᴏɴ Gʀᴀᴘʜ 📈</b>
-
-[![zephyrus github activity graph](https://fabianocouto-activity-graph.vercel.app/graph/?username=Samiran2004&custom_title=Zephyrus%20Contribution%20Graph&theme=github-compact)](https://www.linkedin.com/in/samiransamanta/)
 
 [![Holopin badges](https://holopin.me/samiran2004)](https://holopin.io/@samiran2004)
 
