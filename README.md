@@ -47,32 +47,43 @@
 ```javascript
 const Samiran = {
     pronouns: "He" | "Him",
-    code: ["JavaScript", "TypeScript", "Java", "Python", "Bash"],
-    askMeAbout: ["backend dev", "DSA", "mobile dev", "CS fundamentals"],
+    code: ["JavaScript", "TypeScript", "Python", "Java", "Bash"],
+    askMeAbout: ["full stack dev", "AI integration", "backend dev", "DSA", "mobile dev", "travel tech"],
     technologies: {
         frontEnd: {
-            mobile: ["React Native", "Android (Java)"],
-            web: ["HTML", "CSS"]
+            web: ["React", "Tailwind CSS", "Shadcn/ui", "HTML", "CSS"],
+            mobile: ["React Native", "Android (Java)"]
         },
         backEnd: {
             js: ["Node.js", "Express.js"],
+            python: ["FastAPI"],
             java: ["Spring Boot (basic)"]
         },
-        devOps: [], // Paused for now
+        ai: ["Groq AI", "GPT", "Chatbot", "LLM Integration"],
+        devOps: ["Vercel", "Render", "Railway"],
         cloudServices: {
-            aws: ["EC2 (basic)", "S3 (basic)"]
+            aws: ["EC2 (basic)", "S3 (basic)"],
+            databases: ["MongoDB Atlas", "Redis Cloud"]
         },
-        databases: ["MongoDB", "Redis"],
-        misc: ["Postman", "Swagger", "Socket.IO", "Twilio"],
-        generativeAI: ["Chatbot", "GPT"]
+        databases: ["MongoDB", "Redis", "PostgreSQL (familiar)"],
+        authentication: ["Clerk", "JWT"],
+        misc: ["Postman", "Swagger", "Socket.IO", "Twilio", "Git", "Axios"],
+        apis: ["REST APIs", "Third-party Integration", "Amadeus", "Pollinations AI"],
+        payments: ["Razorpay (integrating)"]
     },
     architecture: {
-        backEnd: ["REST APIs", "MVC"],
-        databases: ["NoSQL", "In-memory"],
-        fullStack: ["React Native + Node.js"]
+        backEnd: ["REST APIs", "MVC", "Microservices (learning)"],
+        databases: ["NoSQL", "In-memory", "Relational (basics)"],
+        fullStack: ["React + Express.js + MongoDB", "React Native + Node.js"],
+        ai: ["AI-powered recommendation systems", "Content generation"]
     },
-    currentFocus: "Building cross-platform mobile apps and strengthening DSA skills in Java",
-    funFact: "Can debug tricky backend flows while sipping chai ☕ and vibing to Lo-Fi beats 🎵"
+    currentFocus: "Building AI-powered full-stack applications (AdventureNexus), mastering FastAPI, and strengthening DSA skills in Java",
+    featuredProject: {
+        name: "AdventureNexus - AI Travel Planner",
+        tech: ["React", "Express.js", "MongoDB", "Groq AI", "Clerk", "Redis"],
+        impact: "80% time reduction | 92% satisfaction | 95% retention"
+    },
+    funFact: "Can architect full-stack apps while sipping chai ☕, debug backend flows while vibing to Lo-Fi beats 🎵, and optimize APIs at 2 AM 🌙"
 };
 
 ```
@@ -80,7 +91,6 @@ const Samiran = {
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
 
 <br/>
-- <img src="https://profile-counter.glitch.me/{Samiran2004}/count.svg" alt="Samiran2004 :: Visitor's Count" />
 
 **languages and tools:**  
 
@@ -109,6 +119,7 @@ const Samiran = {
 <code><img height="20" src="https://img.icons8.com/?size=80&id=50ZQHdJTmPqw&format=png"></code>
 <code><img height="20" src="https://img.icons8.com/?size=80&id=HF4xGsjDERHf&format=png"></code>
 <code><img height="20" src="https://img.icons8.com/color/48/000000/amazon-web-services.png"></code>
+<code><img height="20" alt="image" src="https://github.com/user-attachments/assets/c37801d7-e030-4972-998d-e81661dc4830" /></code>
 
 <br>
 
@@ -168,9 +179,9 @@ const Samiran = {
     </td>
     <td align="center" width="96">
 <!--       <a href=""> -->
-        <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" width="48" height="48" alt="TypeScript" />
+        <img width="48" height="48" alt="image" src="https://github.com/user-attachments/assets/c37801d7-e030-4972-998d-e81661dc4830" />
 <!--       </a> -->
-      <br>Spring Boot
+      <br>FastAPI
     </td>
     <td align="center" width="96">
 <!--       <a href=""> -->
@@ -182,13 +193,6 @@ const Samiran = {
 </table>
 
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b>🏆 Gɪᴛʜᴜʙ Tʀᴏᴘʜɪᴇs 🏆</b>
-<p align="center">
-  <a href="https://github.com/Samiran2004/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Samiran2004&row=2&column=6&margin-w=20&margin-h=20&theme=onedark" alt="GitHub Trophies">
-  </a>
-</p>
-<br />
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Projects</b>
 <br></br>
