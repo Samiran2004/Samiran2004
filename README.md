@@ -292,7 +292,13 @@ const Samiran = {
 
   <img src="./assets/Badge.png" alt="My Badge" height="130" style="vertical-align:middle;"/>
   
-  <img src="./assets/Evangelist.png" alt="Evangelist Badge" height="130" style="vertical-align:middle; margin-left:18px;"/>
+  <img src="./assets/Evangelist.png" alt="Evangelist Badge" height="130" style="vertical-align:middle; margin:18px;"/>
+
+  <img src="./assets/ticket_mentee.png" alt="Evangelist Badge" height="130" style="vertical-align:middle; margin:18px;"/>
+
+  <img src="./assets/ticket_mentor.png" alt="Evangelist Badge" height="130" style="vertical-align:middle; margin:18px;"/>
+
+  <img src="./assets/ticket_evangelist.png" alt="Evangelist Badge" height="130" style="vertical-align:middle; margin:18px;"/>
 </p>
 
 
