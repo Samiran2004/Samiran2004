@@ -33,7 +33,7 @@ I love turning ideas into reality through clean code, thoughtful architecture, a
 - 🌱 Mastering **FastAPI**, **System Design**, and sharpening **DSA** daily
 - 🤖 Passionate about **AI / LLM integration** in real-world applications
 - 💬 Ask me about **Full Stack Dev**, **Backend Engineering**, **API Design**, or **DSA**
-- 📫 Reach me at **samiransamanta490@gmail.com**
+- 📫 Reach me at **samiran.samanta.dev@gmail.com**
 
 <img src="https://user-images.githubusercontent.com/74038190/235223585-049a7ac0-b529-416d-b504-ed24aea7d99b.gif" width="22"> *"Can architect full-stack apps while sipping chai ☕, debug backends to Lo-Fi beats 🎵, and optimize APIs at 2 AM 🌙"*
 
@@ -199,7 +199,7 @@ const Samiran = {
   <a href="https://drive.google.com/file/d/1VsqsBivfrLfqCFwuMXgv2k3WK3E_0TIp/view" target="_blank" rel="noopener noreferrer">
     <img src="https://drive.google.com/uc?export=view&id=1VsqsBivfrLfqCFwuMXgv2k3WK3E_0TIp" alt="Badge" height="110"/>
   </a>&nbsp;&nbsp;
-  <a href="https://badgr.com/public/assertions/6CmfzKiWR1yQxjybAJ3qvA?identity__email=samiransamanta490@gmail.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://badgr.com/public/assertions/6CmfzKiWR1yQxjybAJ3qvA?identity__email=samiran.samanta.dev@gmail.com" target="_blank" rel="noopener noreferrer">
     <img src="https://badgr.com/public/assertions/6CmfzKiWR1yQxjybAJ3qvA/image" alt="Postman Student Expert" height="110"/>
   </a>&nbsp;&nbsp;
   <img src="./assets/GSSoC.png" alt="GSSoC" height="110"/>&nbsp;&nbsp;
