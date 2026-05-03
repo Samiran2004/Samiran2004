@@ -47,28 +47,27 @@
 ```javascript
 const Samiran = {
     pronouns: "He" | "Him",
-    code: ["JavaScript", "TypeScript", "Python", "Java", "Bash"],
-    askMeAbout: ["full stack dev", "AI integration", "backend dev", "DSA", "mobile dev", "travel tech"],
+    code: ["Python", "JavaScript", "Java"],
+    askMeAbout: ["full stack dev", "AI integration", "backend dev", "DSA", "mobile dev", "data engineering", "API development"],
     technologies: {
         frontEnd: {
             web: ["React", "Tailwind CSS", "Shadcn/ui", "HTML", "CSS"],
-            mobile: ["React Native", "Android (Java)"]
+            mobile: ["React Native"]
         },
         backEnd: {
             js: ["Node.js", "Express.js"],
-            python: ["FastAPI"],
-            java: ["Spring Boot (basic)"]
+            python: ["FastAPI"]
         },
         ai: ["Groq AI", "GPT", "Chatbot", "LLM Integration"],
-        devOps: ["Vercel", "Render", "Railway"],
+        devOps: ["Vercel", "Render", "Railway", "Docker"],
         cloudServices: {
             aws: ["EC2 (basic)", "S3 (basic)"],
             databases: ["MongoDB Atlas", "Redis Cloud"]
         },
-        databases: ["MongoDB", "Redis", "PostgreSQL (familiar)"],
+        databases: ["MongoDB", "Redis", "MySQL"],
         authentication: ["Clerk", "JWT"],
         misc: ["Postman", "Swagger", "Socket.IO", "Twilio", "Git", "Axios"],
-        apis: ["REST APIs", "Third-party Integration", "Amadeus", "Pollinations AI"],
+        apis: ["REST APIs", "Third-party Integration", "Pollinations AI"],
         payments: ["Razorpay (integrating)"]
     },
     architecture: {
@@ -77,7 +76,7 @@ const Samiran = {
         fullStack: ["React + Express.js + MongoDB", "React Native + Node.js"],
         ai: ["AI-powered recommendation systems", "Content generation"]
     },
-    currentFocus: "Building AI-powered full-stack applications (AdventureNexus), mastering FastAPI, and strengthening DSA skills in Java",
+    currentFocus: "Building AI-powered full-stack applications (AdventureNexus), mastering FastAPI, and strengthening DSA skills in Python",
     featuredProject: {
         name: "AdventureNexus - AI Travel Planner",
         tech: ["React", "Express.js", "MongoDB", "Groq AI", "Clerk", "Redis"],
