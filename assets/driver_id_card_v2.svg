@@ -1,0 +1,141 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Realistic 3D Shadow -->
+    <filter id="shadow3d">
+      <feDropShadow dx="15" dy="25" stdDeviation="15" flood-color="#000" flood-opacity="0.9"/>
+    </filter>
+    
+    <!-- Plastic Texture (Noise) -->
+    <filter id="plasticTex">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 0.04 0" in="noise" result="coloredNoise"/>
+      <feComposite operator="in" in="coloredNoise" in2="SourceGraphic" result="texture"/>
+      <feBlend mode="multiply" in="texture" in2="SourceGraphic"/>
+    </filter>
+
+    <!-- Glossy Reflection for Lamination -->
+    <linearGradient id="gloss" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="25%" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="26%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Holographic Sticker Gradient -->
+    <linearGradient id="hologram" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff00ff" />
+      <stop offset="25%" stop-color="#00ffff" />
+      <stop offset="50%" stop-color="#ffff00" />
+      <stop offset="75%" stop-color="#00ff00" />
+      <stop offset="100%" stop-color="#ff0000" />
+    </linearGradient>
+
+    <!-- Base Card Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#222"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+
+    <linearGradient id="ferrariRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2800" />
+      <stop offset="100%" stop-color="#b31b00" />
+    </linearGradient>
+
+    <clipPath id="cardClip">
+      <rect width="760" height="350" rx="15"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .title { font-family: "Arial", sans-serif; font-weight: 900; font-size: 38px; fill: #fff; text-transform: uppercase; letter-spacing: 2px; filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.8)); }
+    .subtitle { font-family: "Arial", sans-serif; font-size: 18px; fill: #ff2800; font-weight: bold; letter-spacing: 4px; filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.5));}
+    .bullet { font-family: "Arial", sans-serif; font-size: 15.5px; fill: #ddd; letter-spacing: 0.5px;}
+    .highlight { fill: #fff; font-weight: bold; }
+    .small-text { font-family: "Arial", sans-serif; font-size: 11px; fill: #666; font-weight: bold; letter-spacing: 1px;}
+  </style>
+
+  <!-- Entire Card Group -->
+  <g filter="url(#shadow3d)" transform="translate(20, 25)">
+    
+    <!-- Base Card -->
+    <rect width="760" height="350" rx="15" fill="url(#cardBg)" stroke="#333" stroke-width="2"/>
+    <!-- Apply Texture -->
+    <rect width="760" height="350" rx="15" fill="#fff" filter="url(#plasticTex)" opacity="0.6"/>
+
+    <!-- Red Header Strip -->
+    <rect width="760" height="90" rx="15" fill="url(#ferrariRed)" clip-path="url(#cardClip)"/>
+    <!-- Fix bottom corners of header to be square -->
+    <rect y="70" width="760" height="20" fill="url(#ferrariRed)"/>
+    
+    <!-- Lanyard Cutout (Top Center) -->
+    <rect x="350" y="15" width="60" height="15" rx="7.5" fill="#181818" stroke="#444" stroke-width="3"/>
+    <rect x="352" y="17" width="56" height="11" rx="5.5" fill="#050505"/>
+
+    <!-- Header Content -->
+    <text x="30" y="52" font-family="Arial" font-weight="900" font-size="28" fill="#fff" letter-spacing="2">FIA PADDOCK PASS</text>
+    <text x="730" y="52" font-family="Arial" font-weight="900" font-size="28" fill="#fff" text-anchor="end" opacity="0.9">2024</text>
+    <text x="30" y="75" class="small-text" fill="#fff" opacity="0.8">SCUDERIA FERRARI PIT ACCESS</text>
+    
+    <!-- Header Separation Line -->
+    <line x1="0" y1="90" x2="760" y2="90" stroke="#000" stroke-width="4"/>
+
+    <!-- Profile Photo Box (Driver Helmet Silhouette) -->
+    <rect x="580" y="115" width="150" height="180" rx="8" fill="#111" stroke="#333" stroke-width="2"/>
+    <!-- Inner shadow inside photo box -->
+    <rect x="580" y="115" width="150" height="180" rx="8" fill="none" stroke="#000" stroke-width="6" opacity="0.5"/>
+    
+    <path d="M 655 135 C 625 135, 610 165, 610 195 C 610 235, 630 265, 655 265 C 680 265, 700 235, 700 195 C 700 165, 685 135, 655 135 Z" fill="#2a2a2a"/>
+    <path d="M 620 175 C 620 175, 655 165, 690 175 L 685 205 C 685 205, 655 195, 625 205 Z" fill="#ff2800"/>
+    <text x="655" y="285" class="small-text" text-anchor="middle" fill="#888">ID: SS-16-55</text>
+
+    <!-- Holographic Sticker -->
+    <circle cx="690" cy="320" r="18" fill="url(#hologram)" opacity="0.8"/>
+    <circle cx="690" cy="320" r="15" fill="none" stroke="#fff" stroke-width="1.5" opacity="0.6"/>
+    <text x="690" y="324" font-family="Arial" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">VIP</text>
+
+    <!-- Barcode (Left Edge) -->
+    <g transform="translate(30, 115)">
+      <rect x="0" y="0" width="4" height="210" fill="#fff" opacity="0.15"/>
+      <rect x="7" y="0" width="2" height="210" fill="#fff" opacity="0.15"/>
+      <rect x="12" y="0" width="7" height="210" fill="#fff" opacity="0.15"/>
+      <rect x="23" y="0" width="3" height="210" fill="#fff" opacity="0.15"/>
+      <rect x="30" y="0" width="1" height="210" fill="#fff" opacity="0.15"/>
+      <rect x="34" y="0" width="5" height="210" fill="#fff" opacity="0.15"/>
+      <rect x="42" y="0" width="3" height="210" fill="#fff" opacity="0.15"/>
+    </g>
+
+    <!-- Profile Text -->
+    <g transform="translate(90, 110)">
+      <text x="0" y="40" class="title">Samiran Samanta</text>
+      <text x="0" y="65" class="subtitle">FULL STACK DEVELOPER // INDIA 🇮🇳</text>
+      
+      <line x1="0" y1="80" x2="470" y2="80" stroke="#ff2800" stroke-width="2" opacity="0.3"/>
+
+      <!-- Data Points -->
+      <g transform="translate(0, 110)">
+        <rect x="0" y="-12" width="10" height="10" fill="#ff2800" rx="3"/>
+        <text x="25" y="0" class="bullet">CURRENT SETUP: <tspan class="highlight">AdventureNexus</tspan> — AI travel platform</text>
+        
+        <rect x="0" y="23" width="10" height="10" fill="#ff2800" rx="3"/>
+        <text x="25" y="35" class="bullet">TUNING ENGINE: Mastering <tspan class="highlight">FastAPI, Sys Design</tspan> &amp; DSA</text>
+        
+        <rect x="0" y="58" width="10" height="10" fill="#ff2800" rx="3"/>
+        <text x="25" y="70" class="bullet">INNOVATION: Injecting <tspan class="highlight">AI / LLM</tspan> intelligence into apps</text>
+        
+        <rect x="0" y="93" width="10" height="10" fill="#ff2800" rx="3"/>
+        <text x="25" y="105" class="bullet">PIT RADIO: Ask me about <tspan class="highlight">Backend Dev</tspan> &amp; API Design</text>
+        
+        <rect x="0" y="128" width="10" height="10" fill="#ff2800" rx="3"/>
+        <text x="25" y="140" class="bullet">TEAM PRINCIPAL: <tspan class="highlight">samiran.samanta.dev@gmail.com</tspan></text>
+      </g>
+    </g>
+    
+    <!-- Watermark Logo -->
+    <text x="400" y="260" font-family="Arial" font-weight="900" font-size="160" fill="#ffffff" opacity="0.02" font-style="italic">SF-24</text>
+    
+    <!-- Glossy Glass Lamination overlay covering the entire card -->
+    <rect width="760" height="350" rx="15" fill="url(#gloss)" style="pointer-events: none;"/>
+    <!-- Card Border Highlight to simulate plastic thickness -->
+    <rect width="760" height="350" rx="15" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.2" style="pointer-events: none;"/>
+  </g>
+</svg>

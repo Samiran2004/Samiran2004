@@ -1,0 +1,87 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Cinematic light sweep -->
+    <linearGradient id="sweep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0" />
+      <stop offset="45%" stop-color="#fff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.3" />
+      <stop offset="55%" stop-color="#fff" stop-opacity="0" />
+      <stop offset="100%" stop-color="#fff" stop-opacity="0" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes kenBurns {
+      0% { transform: scale(1) translate(0, 0); }
+      50% { transform: scale(1.1) translate(-20px, -10px); }
+      100% { transform: scale(1) translate(0, 0); }
+    }
+    
+    @keyframes lightSweep {
+      0% { transform: translateX(-1500px); }
+      30% { transform: translateX(1500px); }
+      100% { transform: translateX(1500px); }
+    }
+
+    @keyframes textPulse {
+      0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 5px #000); }
+      50% { opacity: 1; filter: drop-shadow(0 0 15px #ff2800); }
+    }
+    
+    .bg-image {
+      animation: kenBurns 15s ease-in-out infinite;
+      transform-origin: center center;
+    }
+
+    .sweep-layer {
+      animation: lightSweep 6s infinite;
+    }
+
+    .title {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 80px;
+      fill: #ffffff;
+      letter-spacing: 15px;
+      font-style: italic;
+      animation: textPulse 3s infinite;
+    }
+    
+    .subtitle {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      fill: #ff2800;
+      letter-spacing: 5px;
+      filter: drop-shadow(0 0 2px #000);
+    }
+  </style>
+
+  <!-- Clip path to keep animation within bounds -->
+  <clipPath id="bounds">
+    <rect width="1200" height="400" />
+  </clipPath>
+
+  <g clip-path="url(#bounds)">
+    <!-- Actual 4K Photorealistic Real F1 Car -->
+    <image class="bg-image" href="https://upload.wikimedia.org/wikipedia/commons/9/9f/FIA_F1_Austria_2023_Nr._55_%281%29.jpg" x="-100" y="-200" width="1400" height="933" />
+    
+    <!-- Dark overlay for text readability -->
+    <rect width="1200" height="400" fill="#000" opacity="0.4" />
+    
+    <!-- Animated Light Sweep -->
+    <rect width="2000" height="1000" x="-500" y="-300" fill="url(#sweep)" class="sweep-layer" transform="skewX(-30)" />
+
+    <!-- Typography -->
+    <text x="600" y="220" text-anchor="middle" class="title">SCUDERIA FERRARI</text>
+    <text x="600" y="270" text-anchor="middle" class="subtitle">DEVELOPER EDITION</text>
+  </g>
+</svg>

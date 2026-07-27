@@ -1,0 +1,21 @@
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .light { fill: #330000; }
+    .l1 { animation: l1 4s infinite; }
+    .l2 { animation: l2 4s infinite; }
+    .l3 { animation: l3 4s infinite; }
+    .l4 { animation: l4 4s infinite; }
+    .l5 { animation: l5 4s infinite; }
+    @keyframes l1 { 0%, 12.4% { fill: #330000; } 12.5%, 75% { fill: #ff0000; } 75.1%, 100% { fill: #330000; } }
+    @keyframes l2 { 0%, 24.9% { fill: #330000; } 25%, 75% { fill: #ff0000; } 75.1%, 100% { fill: #330000; } }
+    @keyframes l3 { 0%, 37.4% { fill: #330000; } 37.5%, 75% { fill: #ff0000; } 75.1%, 100% { fill: #330000; } }
+    @keyframes l4 { 0%, 49.9% { fill: #330000; } 50%, 75% { fill: #ff0000; } 75.1%, 100% { fill: #330000; } }
+    @keyframes l5 { 0%, 62.4% { fill: #330000; } 62.5%, 75% { fill: #ff0000; } 75.1%, 100% { fill: #330000; } }
+  </style>
+  <rect width="400" height="100" fill="#111" rx="10"/>
+  <circle cx="50" cy="50" r="30" class="light l1"/>
+  <circle cx="125" cy="50" r="30" class="light l2"/>
+  <circle cx="200" cy="50" r="30" class="light l3"/>
+  <circle cx="275" cy="50" r="30" class="light l4"/>
+  <circle cx="350" cy="50" r="30" class="light l5"/>
+</svg>

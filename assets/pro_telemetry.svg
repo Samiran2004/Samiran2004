@@ -1,0 +1,67 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111" />
+      <stop offset="100%" stop-color="#000" />
+    </linearGradient>
+  </defs>
+  <style>
+    .text { font-family: monospace; fill: #fff; }
+    .highlight { fill: #ff2800; font-weight: bold; }
+    .bar { animation: pulse 2s infinite alternate; }
+    .gear { animation: gearShift 8s infinite; }
+    @keyframes pulse {
+      0% { width: 100px; fill: #ff2800; }
+      100% { width: 360px; fill: #00ff00; }
+    }
+    @keyframes gearShift {
+      0%, 20% { content: "2"; }
+      21%, 40% { content: "4"; }
+      41%, 60% { content: "6"; }
+      61%, 80% { content: "7"; }
+      81%, 100% { content: "8"; }
+    }
+    .rpm-text {
+      animation: rpm 2s infinite alternate;
+    }
+    @keyframes rpm {
+      0% { opacity: 0.8; }
+      100% { opacity: 1; filter: drop-shadow(0 0 5px #ff2800); }
+    }
+    
+    .wave {
+      animation: lineDraw 1s infinite linear;
+    }
+    @keyframes lineDraw {
+      0% { transform: translateX(0px); }
+      100% { transform: translateX(-40px); }
+    }
+  </style>
+
+  <rect width="400" height="300" fill="url(#bg)" rx="15" stroke="#333" stroke-width="2"/>
+  
+  <text x="20" y="40" class="text" font-size="20">TELEMETRY DATA</text>
+  <rect x="20" y="50" width="360" height="2" fill="#333"/>
+  
+  <text x="20" y="90" class="text" font-size="14">DRIVER: <tspan class="highlight">SAMIRAN SAMANTA</tspan></text>
+  <text x="20" y="120" class="text" font-size="14">STATUS: <tspan fill="#00ff00">OPTIMIZING CODEBASE</tspan></text>
+  
+  <text x="20" y="170" class="text rpm-text" font-size="14">RPM (SPEED)</text>
+  <rect x="20" y="180" width="360" height="20" fill="#222" rx="10"/>
+  <rect x="20" y="180" width="200" height="20" fill="#ff2800" rx="10" class="bar"/>
+
+  <text x="20" y="240" class="text" font-size="14">GEAR</text>
+  <text x="20" y="280" class="highlight gear" font-size="40" font-family="sans-serif">8</text>
+  
+  <text x="120" y="240" class="text" font-size="14">SPEED</text>
+  <text x="120" y="280" class="text" font-size="40" font-family="sans-serif">320 <tspan font-size="20">km/h</tspan></text>
+
+  <g transform="translate(260, 220)">
+    <clipPath id="waveClip">
+      <rect x="0" y="0" width="120" height="60" />
+    </clipPath>
+    <g clip-path="url(#waveClip)">
+       <path class="wave" d="M 0,40 L 10,20 L 20,50 L 30,10 L 40,40 L 50,20 L 60,50 L 70,10 L 80,40 L 90,20 L 100,50 L 110,10 L 120,40 L 130,20 L 140,50 L 150,10 L 160,40" fill="none" stroke="#ff2800" stroke-width="3" />
+    </g>
+  </g>
+</svg>

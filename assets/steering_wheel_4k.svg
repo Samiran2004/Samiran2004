@@ -1,0 +1,253 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Carbon Fiber Texture Generator -->
+    <pattern id="carbonPattern" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#151515"/>
+      <path d="M0 0L5 5M5 10L10 5" stroke="#2a2a2a" stroke-width="2"/>
+      <path d="M5 0L10 5M0 5L5 10" stroke="#0a0a0a" stroke-width="2"/>
+    </pattern>
+
+    <!-- Alcantara/Rubber Grip Texture -->
+    <filter id="rubberTexture">
+      <feTurbulence type="fractalNoise" baseFrequency="1.5" numOctaves="4" result="noise"/>
+      <feColorMatrix type="matrix" values="0.1 0 0 0 0, 0 0.1 0 0 0, 0 0 0.1 0 0, 0 0 0 0.3 0" in="noise" result="coloredNoise"/>
+      <feComposite operator="in" in="coloredNoise" in2="SourceGraphic" result="texture"/>
+      <feBlend mode="multiply" in="texture" in2="SourceGraphic"/>
+    </filter>
+
+    <!-- Deep Drop Shadows -->
+    <filter id="shadowHeavy">
+      <feDropShadow dx="0" dy="25" stdDeviation="15" flood-color="#000" flood-opacity="0.9"/>
+    </filter>
+    <filter id="shadowButton">
+      <feDropShadow dx="2" dy="8" stdDeviation="5" flood-color="#000" flood-opacity="0.8"/>
+    </filter>
+    
+    <!-- Screen Glass Reflection & Recess -->
+    <filter id="screenRecess">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="1" />
+    </filter>
+    
+    <linearGradient id="glassReflect" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="30%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- 3D Gradients -->
+    <radialGradient id="buttonRed" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ff9999"/>
+      <stop offset="40%" stop-color="#cc0000"/>
+      <stop offset="100%" stop-color="#4d0000"/>
+    </radialGradient>
+    <radialGradient id="buttonYellow" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffcc"/>
+      <stop offset="40%" stop-color="#ffcc00"/>
+      <stop offset="100%" stop-color="#664d00"/>
+    </radialGradient>
+    <radialGradient id="buttonGreen" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#b3ffb3"/>
+      <stop offset="40%" stop-color="#00cc00"/>
+      <stop offset="100%" stop-color="#004d00"/>
+    </radialGradient>
+    <radialGradient id="buttonBlue" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#b3b3ff"/>
+      <stop offset="40%" stop-color="#0000cc"/>
+      <stop offset="100%" stop-color="#00004d"/>
+    </radialGradient>
+    <radialGradient id="dialMetal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#777"/>
+      <stop offset="60%" stop-color="#222"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+    
+    <!-- LED Glow Filters -->
+    <filter id="ledGlowG">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feFlood flood-color="#00ff00" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feComposite in="SourceGraphic" in2="glow" operator="over"/>
+    </filter>
+    <filter id="ledGlowR">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feFlood flood-color="#ff0000" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feComposite in="SourceGraphic" in2="glow" operator="over"/>
+    </filter>
+    <filter id="ledGlowB">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feFlood flood-color="#0000ff" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feComposite in="SourceGraphic" in2="glow" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .lcd-text { font-family: "Courier New", monospace; fill: #fff; font-weight: bold; }
+    
+    .led { fill: #050505; stroke: #000; stroke-width: 2; }
+    .led1, .led2, .led3 { animation: ledG 6s infinite; }
+    .led4, .led5, .led6 { animation: ledR 6s infinite; }
+    .led7, .led8, .led9 { animation: ledB 6s infinite; }
+
+    @keyframes ledG { 0%, 15% { fill: #050505; } 16%, 100% { fill: #b3ffb3; filter: url(#ledGlowG); } }
+    @keyframes ledR { 0%, 45% { fill: #050505; } 46%, 100% { fill: #ffb3b3; filter: url(#ledGlowR); } }
+    @keyframes ledB { 0%, 75% { fill: #050505; } 76%, 100% { fill: #b3b3ff; filter: url(#ledGlowB); } }
+    
+    .wave { animation: lineDraw 0.5s infinite linear; }
+    @keyframes lineDraw {
+      0% { transform: translateX(0px); }
+      100% { transform: translateX(-30px); }
+    }
+
+    .gear3, .gear4, .gear5, .gear6, .gear7, .gear8 { opacity: 0; animation: 6s infinite; }
+    .gear3 { animation-name: show3; }
+    .gear4 { animation-name: show4; }
+    .gear5 { animation-name: show5; }
+    .gear6 { animation-name: show6; }
+    .gear7 { animation-name: show7; }
+    .gear8 { animation-name: show8; }
+    @keyframes show3 { 0%, 15% { opacity: 1; } 16%, 100% { opacity: 0; } }
+    @keyframes show4 { 0%, 15% { opacity: 0; } 16%, 30% { opacity: 1; } 31%, 100% { opacity: 0; } }
+    @keyframes show5 { 0%, 30% { opacity: 0; } 31%, 45% { opacity: 1; } 46%, 100% { opacity: 0; } }
+    @keyframes show6 { 0%, 45% { opacity: 0; } 46%, 60% { opacity: 1; } 61%, 100% { opacity: 0; } }
+    @keyframes show7 { 0%, 60% { opacity: 0; } 61%, 80% { opacity: 1; } 81%, 100% { opacity: 0; } }
+    @keyframes show8 { 0%, 80% { opacity: 0; } 81%, 100% { opacity: 1; } }
+  </style>
+
+  <g filter="url(#shadowHeavy)">
+    <!-- Main Carbon Body -->
+    <path d="M 120 70 L 480 70 L 520 150 L 520 280 L 410 360 L 190 360 L 80 280 L 80 150 Z" fill="url(#carbonPattern)" stroke="#111" stroke-width="3"/>
+    
+    <!-- Left Alcantara Grip -->
+    <path d="M 120 70 C 40 70, 10 160, 10 240 C 10 320, 40 370, 80 370 C 100 370, 110 330, 80 280 L 80 150 Z" fill="#222" filter="url(#rubberTexture)" stroke="#000" stroke-width="2"/>
+    <path d="M 120 70 C 40 70, 10 160, 10 240 C 10 320, 40 370, 80 370 C 100 370, 110 330, 80 280 L 80 150 Z" fill="url(#glassReflect)" opacity="0.3"/>
+    
+    <!-- Right Alcantara Grip -->
+    <path d="M 480 70 C 560 70, 590 160, 590 240 C 590 320, 560 370, 520 370 C 500 370, 490 330, 520 280 L 520 150 Z" fill="#222" filter="url(#rubberTexture)" stroke="#000" stroke-width="2"/>
+    <path d="M 480 70 C 560 70, 590 160, 590 240 C 590 320, 560 370, 520 370 C 500 370, 490 330, 520 280 L 520 150 Z" fill="url(#glassReflect)" opacity="0.3"/>
+
+    <!-- Top RPM LED Hood (Carbon) -->
+    <path d="M 180 60 L 420 60 L 440 95 L 160 95 Z" fill="url(#carbonPattern)" stroke="#000" stroke-width="3"/>
+    <rect x="180" y="70" width="240" height="15" fill="#050505" stroke="#000" stroke-width="2" rx="5"/>
+    
+    <!-- LEDs -->
+    <circle cx="195" cy="77" r="5.5" class="led led1"/>
+    <circle cx="220" cy="77" r="5.5" class="led led2"/>
+    <circle cx="245" cy="77" r="5.5" class="led led3"/>
+    
+    <circle cx="270" cy="77" r="5.5" class="led led4"/>
+    <circle cx="300" cy="77" r="5.5" class="led led5"/>
+    <circle cx="330" cy="77" r="5.5" class="led led6"/>
+    
+    <circle cx="355" cy="77" r="5.5" class="led led7"/>
+    <circle cx="380" cy="77" r="5.5" class="led led8"/>
+    <circle cx="405" cy="77" r="5.5" class="led led9"/>
+
+    <!-- Central LCD Screen Panel -->
+    <g transform="translate(150, 110)">
+      <!-- Bezel -->
+      <rect x="-10" y="-10" width="320" height="160" fill="#111" stroke="#333" stroke-width="2" rx="10"/>
+      <!-- Actual LCD -->
+      <rect x="0" y="0" width="300" height="140" fill="#000e1f" stroke="#000" stroke-width="4" rx="4"/>
+      <!-- Glass Glare on LCD -->
+      <path d="M 0 0 L 300 0 L 300 60 L 0 120 Z" fill="url(#glassReflect)" clip-path="url(#lcdClip)"/>
+      <clipPath id="lcdClip"><rect x="0" y="0" width="300" height="140" rx="4"/></clipPath>
+      
+      <!-- Screen Inner Glow / Shadow -->
+      <rect x="0" y="0" width="300" height="140" fill="none" stroke="#000" stroke-width="10" opacity="0.8" rx="4"/>
+
+      <!-- Content -->
+      <text x="15" y="25" class="lcd-text" font-size="14" fill="#00ff00">MODE: PUSH</text>
+      <text x="285" y="25" class="lcd-text" font-size="14" text-anchor="end" fill="#ffcc00">DRS: ON</text>
+      
+      <text x="15" y="55" class="lcd-text" font-size="11" fill="#777">DRIVER ID:</text>
+      <text x="15" y="70" class="lcd-text" font-size="16" fill="#fff" letter-spacing="2">SAMIRAN SAMANTA</text>
+      
+      <line x1="15" y1="80" x2="285" y2="80" stroke="#00ffff" stroke-width="1" opacity="0.5"/>
+
+      <text x="15" y="95" class="lcd-text" font-size="12" fill="#777">GEAR</text>
+      <text x="20" y="130" font-family="Arial" font-size="45" font-weight="900" fill="#00ff00" class="gear3">3</text>
+      <text x="20" y="130" font-family="Arial" font-size="45" font-weight="900" fill="#00ff00" class="gear4">4</text>
+      <text x="20" y="130" font-family="Arial" font-size="45" font-weight="900" fill="#ffcc00" class="gear5">5</text>
+      <text x="20" y="130" font-family="Arial" font-size="45" font-weight="900" fill="#ffcc00" class="gear6">6</text>
+      <text x="20" y="130" font-family="Arial" font-size="45" font-weight="900" fill="#ff2800" class="gear7">7</text>
+      <text x="20" y="130" font-family="Arial" font-size="45" font-weight="900" fill="#ff2800" class="gear8">8</text>
+      
+      <text x="90" y="95" class="lcd-text" font-size="12" fill="#777">SPEED</text>
+      <text x="90" y="130" font-family="Arial" font-size="45" font-weight="bold" fill="#fff" class="gear3">185</text>
+      <text x="90" y="130" font-family="Arial" font-size="45" font-weight="bold" fill="#fff" class="gear4">210</text>
+      <text x="90" y="130" font-family="Arial" font-size="45" font-weight="bold" fill="#fff" class="gear5">245</text>
+      <text x="90" y="130" font-family="Arial" font-size="45" font-weight="bold" fill="#fff" class="gear6">280</text>
+      <text x="90" y="130" font-family="Arial" font-size="45" font-weight="bold" fill="#fff" class="gear7">315</text>
+      <text x="90" y="130" font-family="Arial" font-size="45" font-weight="bold" fill="#fff" class="gear8">340</text>
+      <text x="200" y="130" class="lcd-text" font-size="14" fill="#aaa">KPH</text>
+
+      <g transform="translate(230, 95)">
+        <clipPath id="waveClip"><rect x="0" y="0" width="60" height="30" /></clipPath>
+        <g clip-path="url(#waveClip)">
+           <path class="wave" d="M 0,20 L 5,10 L 10,25 L 15,5 L 20,20 L 25,10 L 30,25 L 35,5 L 40,20 L 45,10 L 50,25 L 55,5 L 60,20 L 65,10 L 70,25 L 75,5 L 80,20" fill="none" stroke="#ff2800" stroke-width="2" />
+        </g>
+      </g>
+    </g>
+
+    <!-- 3D Dials and Buttons -->
+    
+    <!-- Left Group -->
+    <g filter="url(#shadowButton)">
+      <circle cx="110" cy="140" r="15" fill="url(#buttonRed)"/>
+      <circle cx="110" cy="140" r="13" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="2"/>
+      
+      <circle cx="100" cy="190" r="15" fill="url(#buttonGreen)"/>
+      <circle cx="100" cy="190" r="13" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="2"/>
+      
+      <circle cx="110" cy="240" r="15" fill="url(#buttonYellow)"/>
+      <circle cx="110" cy="240" r="13" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="2"/>
+      
+      <rect x="80" y="280" width="40" height="12" fill="url(#buttonRed)" rx="4" transform="rotate(25 100 286)"/>
+    </g>
+
+    <!-- Center Manettino Dials -->
+    <g filter="url(#shadowButton)">
+      <circle cx="210" cy="320" r="25" fill="url(#dialMetal)"/>
+      <circle cx="210" cy="320" r="23" fill="#111" stroke="#ffcc00" stroke-width="4"/>
+      <circle cx="210" cy="302" r="3" fill="#ffcc00"/>
+      <polygon points="210,310 205,330 215,330" fill="#fff"/>
+
+      <circle cx="300" cy="330" r="28" fill="url(#dialMetal)"/>
+      <circle cx="300" cy="330" r="26" fill="#111" stroke="#00ff00" stroke-width="4"/>
+      <circle cx="300" cy="309" r="4" fill="#00ff00"/>
+      <polygon points="300,317 294,340 306,340" fill="#fff"/>
+
+      <circle cx="390" cy="320" r="25" fill="url(#dialMetal)"/>
+      <circle cx="390" cy="320" r="23" fill="#111" stroke="#ff2800" stroke-width="4"/>
+      <circle cx="390" cy="302" r="3" fill="#ff2800"/>
+      <polygon points="390,310 385,330 395,330" fill="#fff"/>
+    </g>
+
+    <!-- Right Group -->
+    <g filter="url(#shadowButton)">
+      <circle cx="490" cy="140" r="15" fill="url(#buttonBlue)"/>
+      <circle cx="490" cy="140" r="13" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="2"/>
+      
+      <circle cx="500" cy="190" r="15" fill="url(#buttonYellow)"/>
+      <circle cx="500" cy="190" r="13" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="2"/>
+      
+      <circle cx="490" cy="240" r="15" fill="url(#buttonRed)"/>
+      <circle cx="490" cy="240" r="13" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="2"/>
+      
+      <rect x="480" y="280" width="40" height="12" fill="url(#buttonBlue)" rx="4" transform="rotate(-25 500 286)"/>
+    </g>
+
+    <!-- Center Scuderia Ferrari Shield -->
+    <g transform="translate(285, 275)" filter="url(#shadowButton)">
+      <rect x="0" y="0" width="30" height="35" fill="#ffcc00" rx="3" stroke="#222" stroke-width="1"/>
+      <rect x="0" y="0" width="30" height="4" fill="#009246" rx="1"/>
+      <rect x="0" y="4" width="30" height="4" fill="#ffffff"/>
+      <rect x="0" y="8" width="30" height="4" fill="#ce2b37"/>
+      <!-- The Prancing Horse silhouette -->
+      <path d="M 12 18 C 15 15, 18 15, 22 18 C 22 23, 20 28, 15 32 C 12 28, 10 23, 10 20 Z" fill="#000"/>
+    </g>
+
+  </g>
+</svg>

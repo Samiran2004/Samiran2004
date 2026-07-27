@@ -1,0 +1,185 @@
+<svg width="500" height="350" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Drop Shadow for 3D effect -->
+    <filter id="shadow3d">
+      <feDropShadow dx="0" dy="15" stdDeviation="10" flood-color="#000" flood-opacity="0.8"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="ledGlowG">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feFlood flood-color="#00ff00" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feComposite in="SourceGraphic" in2="glow" operator="over"/>
+    </filter>
+    <filter id="ledGlowR">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feFlood flood-color="#ff0000" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feComposite in="SourceGraphic" in2="glow" operator="over"/>
+    </filter>
+    <filter id="ledGlowB">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feFlood flood-color="#0000ff" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feComposite in="SourceGraphic" in2="glow" operator="over"/>
+    </filter>
+    
+    <!-- Gradients -->
+    <linearGradient id="carbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2a2a" />
+      <stop offset="50%" stop-color="#111" />
+      <stop offset="100%" stop-color="#000" />
+    </linearGradient>
+    <linearGradient id="grip" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="20%" stop-color="#222" />
+      <stop offset="80%" stop-color="#222" />
+      <stop offset="100%" stop-color="#0a0a0a" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#001a33" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#888" />
+      <stop offset="50%" stop-color="#fff" />
+      <stop offset="100%" stop-color="#444" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .lcd-text { font-family: 'Courier New', monospace; fill: #fff; font-weight: bold; }
+    
+    /* RPM LEDs animation */
+    .led { fill: #333; stroke: #000; stroke-width: 1; }
+    .led1, .led2, .led3 { animation: ledG 6s infinite; }
+    .led4, .led5, .led6 { animation: ledR 6s infinite; }
+    .led7, .led8, .led9 { animation: ledB 6s infinite; }
+
+    @keyframes ledG { 0%, 15% { fill: #333; } 16%, 100% { fill: #00ff00; filter: url(#ledGlowG); } }
+    @keyframes ledR { 0%, 45% { fill: #333; } 46%, 100% { fill: #ff0000; filter: url(#ledGlowR); } }
+    @keyframes ledB { 0%, 75% { fill: #333; } 76%, 100% { fill: #0000ff; filter: url(#ledGlowB); } }
+    
+    .wave { animation: lineDraw 0.5s infinite linear; }
+    @keyframes lineDraw {
+      0% { transform: translateX(0px); }
+      100% { transform: translateX(-30px); }
+    }
+
+    .gear3, .gear4, .gear5, .gear6, .gear7, .gear8 { opacity: 0; animation: 6s infinite; }
+    .gear3 { animation-name: show3; }
+    .gear4 { animation-name: show4; }
+    .gear5 { animation-name: show5; }
+    .gear6 { animation-name: show6; }
+    .gear7 { animation-name: show7; }
+    .gear8 { animation-name: show8; }
+    @keyframes show3 { 0%, 15% { opacity: 1; } 16%, 100% { opacity: 0; } }
+    @keyframes show4 { 0%, 15% { opacity: 0; } 16%, 30% { opacity: 1; } 31%, 100% { opacity: 0; } }
+    @keyframes show5 { 0%, 30% { opacity: 0; } 31%, 45% { opacity: 1; } 46%, 100% { opacity: 0; } }
+    @keyframes show6 { 0%, 45% { opacity: 0; } 46%, 60% { opacity: 1; } 61%, 100% { opacity: 0; } }
+    @keyframes show7 { 0%, 60% { opacity: 0; } 61%, 80% { opacity: 1; } 81%, 100% { opacity: 0; } }
+    @keyframes show8 { 0%, 80% { opacity: 0; } 81%, 100% { opacity: 1; } }
+  </style>
+
+  <!-- Steering Wheel Group -->
+  <g filter="url(#shadow3d)">
+    
+    <!-- Left Grip -->
+    <path d="M 120 70 C 50 70, 30 150, 30 220 C 30 280, 50 310, 80 310 L 130 310 Z" fill="url(#grip)"/>
+    <!-- Right Grip -->
+    <path d="M 380 70 C 450 70, 470 150, 470 220 C 470 280, 450 310, 420 310 L 370 310 Z" fill="url(#grip)"/>
+
+    <!-- Main Carbon Body -->
+    <path d="M 120 70 L 380 70 L 410 130 L 410 260 L 320 320 L 180 320 L 90 260 L 90 130 Z" fill="url(#carbon)" stroke="#111" stroke-width="2"/>
+    
+    <!-- Top RPM LED bar area -->
+    <path d="M 160 75 L 340 75 L 345 95 L 155 95 Z" fill="#000" stroke="#222" stroke-width="1"/>
+    
+    <!-- LEDs -->
+    <circle cx="170" cy="85" r="5" class="led led1"/>
+    <circle cx="190" cy="85" r="5" class="led led2"/>
+    <circle cx="210" cy="85" r="5" class="led led3"/>
+    
+    <circle cx="230" cy="85" r="5" class="led led4"/>
+    <circle cx="250" cy="85" r="5" class="led led5"/>
+    <circle cx="270" cy="85" r="5" class="led led6"/>
+    
+    <circle cx="290" cy="85" r="5" class="led led7"/>
+    <circle cx="310" cy="85" r="5" class="led led8"/>
+    <circle cx="330" cy="85" r="5" class="led led9"/>
+
+    <!-- LCD Screen -->
+    <rect x="140" y="110" width="220" height="130" fill="url(#screen)" stroke="#444" stroke-width="3" rx="5" filter="url(#glow)"/>
+    
+    <!-- Dials & Buttons (Left) -->
+    <circle cx="115" cy="130" r="12" fill="#ff2800" stroke="url(#metal)" stroke-width="3"/>
+    <circle cx="110" cy="170" r="12" fill="#00ff00" stroke="url(#metal)" stroke-width="3"/>
+    <circle cx="115" cy="210" r="12" fill="#ffcc00" stroke="url(#metal)" stroke-width="3"/>
+    <rect x="90" y="240" width="30" height="10" fill="#ff2800" rx="3" transform="rotate(30 105 245)"/>
+    
+    <!-- Center Dials -->
+    <circle cx="190" cy="285" r="18" fill="#111" stroke="#ffcc00" stroke-width="4"/>
+    <circle cx="250" cy="290" r="22" fill="#111" stroke="#00ff00" stroke-width="4"/>
+    <circle cx="310" cy="285" r="18" fill="#111" stroke="#ff2800" stroke-width="4"/>
+    <!-- Dial notches -->
+    <circle cx="190" cy="272" r="3" fill="#ffcc00"/>
+    <circle cx="250" cy="274" r="4" fill="#00ff00"/>
+    <circle cx="310" cy="272" r="3" fill="#ff2800"/>
+
+    <!-- Dials & Buttons (Right) -->
+    <circle cx="385" cy="130" r="12" fill="#0000ff" stroke="url(#metal)" stroke-width="3"/>
+    <circle cx="390" cy="170" r="12" fill="#ffcc00" stroke="url(#metal)" stroke-width="3"/>
+    <circle cx="385" cy="210" r="12" fill="#ff2800" stroke="url(#metal)" stroke-width="3"/>
+    <rect x="380" y="240" width="30" height="10" fill="#0000ff" rx="3" transform="rotate(-30 395 245)"/>
+
+    <!-- Text inside LCD Screen -->
+    <text x="150" y="130" class="lcd-text" font-size="12" fill="#00ff00">MODE: PUSH</text>
+    <text x="340" y="130" class="lcd-text" font-size="12" text-anchor="end" fill="#ffcc00">DRS: ON</text>
+    
+    <text x="150" y="160" class="lcd-text" font-size="10" fill="#aaa">DRIVER ID:</text>
+    <text x="150" y="175" class="lcd-text" font-size="14" fill="#fff">SAMIRAN SAMANTA</text>
+    
+    <line x1="150" y1="185" x2="330" y2="185" stroke="#333" stroke-width="1"/>
+
+    <!-- Gear & Speed -->
+    <text x="150" y="200" class="lcd-text" font-size="12" fill="#aaa">GEAR</text>
+    <!-- Animated Gears -->
+    <text x="150" y="235" font-family="Arial" font-size="50" font-weight="900" fill="#00ff00" class="gear3">3</text>
+    <text x="150" y="235" font-family="Arial" font-size="50" font-weight="900" fill="#00ff00" class="gear4">4</text>
+    <text x="150" y="235" font-family="Arial" font-size="50" font-weight="900" fill="#ffcc00" class="gear5">5</text>
+    <text x="150" y="235" font-family="Arial" font-size="50" font-weight="900" fill="#ffcc00" class="gear6">6</text>
+    <text x="150" y="235" font-family="Arial" font-size="50" font-weight="900" fill="#ff2800" class="gear7">7</text>
+    <text x="150" y="235" font-family="Arial" font-size="50" font-weight="900" fill="#ff2800" class="gear8">8</text>
+    
+    <text x="210" y="200" class="lcd-text" font-size="12" fill="#aaa">SPEED</text>
+    <!-- Animated Speeds -->
+    <text x="210" y="235" font-family="Arial" font-size="40" font-weight="bold" fill="#fff" class="gear3">185</text>
+    <text x="210" y="235" font-family="Arial" font-size="40" font-weight="bold" fill="#fff" class="gear4">210</text>
+    <text x="210" y="235" font-family="Arial" font-size="40" font-weight="bold" fill="#fff" class="gear5">245</text>
+    <text x="210" y="235" font-family="Arial" font-size="40" font-weight="bold" fill="#fff" class="gear6">280</text>
+    <text x="210" y="235" font-family="Arial" font-size="40" font-weight="bold" fill="#fff" class="gear7">315</text>
+    <text x="210" y="235" font-family="Arial" font-size="40" font-weight="bold" fill="#fff" class="gear8">340</text>
+    <text x="305" y="235" class="lcd-text" font-size="12" fill="#aaa">KPH</text>
+    
+    <!-- Heartbeat / Graph at bottom right of screen -->
+    <g transform="translate(270, 205)">
+      <clipPath id="waveClip">
+        <rect x="0" y="0" width="70" height="30" />
+      </clipPath>
+      <g clip-path="url(#waveClip)">
+         <path class="wave" d="M 0,20 L 5,10 L 10,25 L 15,5 L 20,20 L 25,10 L 30,25 L 35,5 L 40,20 L 45,10 L 50,25 L 55,5 L 60,20 L 65,10 L 70,25 L 75,5 L 80,20" fill="none" stroke="#ff2800" stroke-width="2" />
+      </g>
+    </g>
+
+    <!-- Ferrari Logo Badge in center bottom -->
+    <rect x="240" y="250" width="20" height="25" fill="#ffcc00" rx="2"/>
+    <!-- Tiny horse approximation -->
+    <path d="M 248 255 L 252 255 L 252 265 L 245 270 Z" fill="#000"/>
+    <rect x="240" y="250" width="20" height="3" fill="#009246"/> <!-- Italy Green -->
+    <rect x="240" y="253" width="20" height="3" fill="#ffffff"/> <!-- Italy White -->
+    <rect x="240" y="256" width="20" height="3" fill="#ce2b37"/> <!-- Italy Red -->
+  </g>
+</svg>
