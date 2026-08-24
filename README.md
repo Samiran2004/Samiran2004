@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="Samiran2004's GitHub profile" src="dark_mode.svg" />
+</picture>
+
 <div align="center">
   <img src="./assets/pro_banner_v2.svg" width="100%" alt="Scuderia Ferrari Pro Banner" />
 </div>
